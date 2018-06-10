@@ -26,4 +26,4 @@ Step used in this code:
     - Using Cross validation (fold=10)
 
 ## Result
-![image of result](https://github.com/rezkyal/MachineLearning/image/titanic.jpg)
+![image of result](https://github.com/rezkyal/MachineLearning/blob/master/image/titanic.jpg)
