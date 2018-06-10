@@ -1,4 +1,4 @@
-## Kaggle PUBG Match Death and Statistics using Apache Spark (Pyspark)
+# Kaggle PUBG Match Death and Statistics using Apache Spark (Pyspark) :gun:
 You can get the dataset and the description from [here](https://www.kaggle.com/skihikingkevin/pubg-match-deaths)
 
 This code using apache spark **(pyspark)** as the basic library, can be implemented to apache hadoop for big data
@@ -6,6 +6,8 @@ This code using apache spark **(pyspark)** as the basic library, can be implemen
 Goal : Predict whether someone playing in solo will get chicken dinner or not by knowing some attribute: ("game_size","player_kills","player_dbno","player_assists","player_dmg")
 
 Dataset used : agg_match_stats_4.csv
+
+Type : Classification
 
 Step used in this code:
 1. Data selection and preprocessing
@@ -21,6 +23,7 @@ Step used in this code:
       - Random Forest (depth=10)
 4. Evaluating
     - Using Cross validation (binary classification evaluator, fold=3)
+    - BinaryClassEvaluator
 
 ## Result
 100 % accuracy for both algorithm
